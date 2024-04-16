@@ -1,0 +1,13 @@
+npm init -y -- iniciar o node
+
+
+node --watch .\src\server.js  ---- para o node atualizar com as mudanças 
+(apartir do 18/ substitui o nodemon)
+
+
+instalado duas bibliotecas
+(npm i "nome da biblioteca")
+node_modules/ws
+
+node_modules/dotenv
+
