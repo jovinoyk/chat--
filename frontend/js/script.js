@@ -94,7 +94,7 @@ const handleLogin    = (event) => {
     login.style.display = "none";
     chat.style.display = "flex";
     
-    websocket = new WebSocket("ws://localhost:8080")
+    websocket = new WebSocket("wss://chat-estudo.onrender.com") // ws://localhost:8080 (teste local)
     websocket.onmessage = processMessage    // ======== DUVIDA
 
     //websocket.onopen = () => websocket.send(`Usuario: ${user.name} entrou no chat!`) // envia a mensagem ao server
